@@ -1,0 +1,706 @@
+/* ***********************************
+            global section css
+***************************************/
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100% !important;
+  height: auto !important;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.orange {
+  color: #fe5c24;
+}
+.blue {
+  color: #0c3e72;
+}
+.container {
+  width: 1140px !important;
+}
+
+/* ***********************************
+            header section css
+***************************************/
+.top-bar {
+  padding: 14px 0;
+  background: #eaefff;
+}
+.top-bar a {
+  color: #0c3e72;
+  transition: 7s !important;
+  display: inline-block !important;
+}
+/* .top-bar a:hover {
+  color: #fe5c24;
+  transition: 0.5s !important;
+} */
+.top-bar a i {
+  color: #0c3e72;
+  transition: 0.5s;
+}
+.top-bar a i:hover {
+  color: #fe5c24;
+  transition: 0.5s;
+}
+.social-menu a {
+  margin-right: 20px;
+}
+.phon-number span i {
+  margin-right: 8px;
+}
+.book-now {
+  background-color: #fe5c24;
+  color: #fff;
+  border: none;
+  padding: 13px 30px;
+  transition: 0.5s;
+}
+.book-now:hover {
+  background-color: #2493e0;
+  transition: 0.5s;
+}
+/* .menu-bar{
+  position: fixed;
+} */
+.menubar ul li .nav-link {
+  color: #0c3e72 !important;
+  font-size: 16px !important;
+  padding: 28px 22px !important;
+  transition: 0.5s;
+}
+.menubar ul li .nav-link:hover {
+  color: #fe5c24 !important;
+  transition: 0.5s;
+}
+.dropdown-item {
+  color: #0c3e72 !important;
+  font-size: 16px !important;
+  transition: 0.5s;
+}
+.dropdown-item:hover {
+  color: #fe5c24 !important;
+  transition: 0.5s;
+}
+
+/* ***********************************
+            banner section css
+***************************************/
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/banner-background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll;
+}
+.banner-content {
+  height: 100vh;
+}
+.banner-content-item h1 {
+  font-size: 120px;
+  line-height: 1;
+  text-transform: capitalize;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 22px;
+}
+.banner-content-item p {
+  font-size: 24px;
+  color: #fff;
+  line-height: 28px;
+  font-weight: 400;
+}
+.banner-content-item button {
+  margin-top: 40px;
+  border: none;
+  color: #fff;
+  background-color: #2493e0;
+  padding: 23px 79px;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 500;
+  transition: 0.5s;
+}
+.banner-content-item button:hover {
+  background-color: #fe5c24;
+  transition: 0.5s;
+}
+
+/* ***********************************
+            search section css
+***************************************/
+.search {
+  margin-top: -80px;
+}
+.search-menu {
+  background-color: #fff;
+}
+.search-menu ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 28.5px 0;
+}
+.search-menu ul li a {
+  padding-left: 20px;
+  color: #0c3e72;
+  text-transform: capitalize;
+}
+.search-menu ul li {
+  position: relative;
+  text-align: center;
+}
+.search-item {
+  box-shadow: 0 10px 40px 0 rgba(221, 221, 221, 0.3);
+  background: #fff;
+  padding: 40px;
+}
+.form-field {
+  padding: 8px 8px;
+  height: 50px;
+  color: #2493e0;
+  background: #fff;
+  border-color: #2493e0;
+  border-style: solid;
+}
+.date-box {
+  display: inline-block;
+  position: relative;
+}
+.date-box i {
+  position: absolute;
+  right: 6px;
+  top: 17px;
+  color: #2493e0;
+  font-size: 16px;
+}
+.w-20 {
+  width: 20%;
+  margin-right: 18px;
+}
+.line {
+  width: 100%;
+  height: 2px;
+  background-color: #2493e0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/* ***********************************
+            visit section css
+***************************************/
+.visit {
+  width: 100%;
+  padding: 130px 0;
+}
+.visit-title {
+  margin-bottom: 73px;
+}
+.visit-title h2 {
+  font-size: 46px;
+  color: #0c3e72;
+  font-weight: 600;
+  margin-bottom: 26px;
+  line-height: 1.1;
+}
+.visit-title p {
+  color: #777;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
+.list-contant a {
+  background-color: #fe5c24;
+  color: #fff;
+  border: none;
+  padding: 10px 25px;
+  display: inline-block;
+  text-transform: capitalize;
+  margin-bottom: 14px;
+}
+.place-list-item {
+  position: relative;
+}
+.list-contant {
+  position: absolute;
+  left: 45px;
+  bottom: 40px;
+  opacity: 0;
+  transition: 0.9s;
+  z-index: 9999;
+}
+.list-contant h3 {
+  font-size: 30px;
+  line-height: 36px;
+  color: #fff;
+  font-weight: 500;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.list-contant p {
+  color: #fff;
+  line-height: 28px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.share {
+  color: #fff !important;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 40px;
+  bottom: 40px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 0.9s;
+  z-index: 9999;
+}
+.share i {
+  font-size: 16px;
+  font-weight: 100;
+}
+.star-icon span i {
+  color: #fe5c24;
+}
+.star-icon-review {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.place-list-item::after {
+  content: "";
+  background-color: #0c3e72;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: 0.9s;
+}
+.place-list-item:hover::after {
+  opacity: 0.75;
+  transition: 0.9s;
+}
+.place-list-item:hover .list-contant {
+  opacity: 1;
+  transform: translateY(-20px);
+  transition: 0.9s;
+}
+.place-list-item:hover .share {
+  opacity: 1;
+  transform: translateY(-20px);
+  transition: 0.9s;
+}
+.discover-more {
+  display: inline-block !important;
+  color: #fff;
+  background-color: #fe5c24;
+  margin-top: 50px;
+  padding: 13px 30px;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 500;
+  text-align: center !important;
+  transition: 0.5s;
+}
+.discover-more:hover {
+  color: #fff;
+  background-color: #2493e0;
+  transition: 0.5s;
+}
+
+/* ***********************************
+            event section css
+***************************************/
+.event {
+  width: 100%;
+  height: 100vh;
+  padding: 130px 0 !important;
+  background-image: url(../img/event-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll;
+}
+.event-item {
+  background-color: #fff;
+  padding: 50px;
+}
+.event-item h5 {
+  color: #fe5c24;
+  margin-bottom: 18px;
+  line-height: 1.2em;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.event-item h2 {
+  font-weight: 600;
+  margin-bottom: 25px;
+  line-height: 1.2em;
+  font-size: 30px;
+  color: #0c3e72;
+}
+.event-item p {
+  margin-bottom: 15px;
+  color: #848484;
+}
+.event-item p span {
+  color: #0c3e72;
+}
+.place-review a i {
+  color: #ffc962;
+}
+.plan-btn {
+  display: inline-block;
+  background-color: #fe5c24;
+  color: #fff;
+  border: none;
+  padding: 13px 30px;
+  transition: 0.5s;
+}
+.plan-btn:hover {
+  color: #fff;
+  background-color: #2493e0;
+  transition: 0.5s;
+}
+.rating {
+  margin-bottom: 45px;
+}
+.rating span {
+  color: #848484;
+}
+
+/* ***********************************
+            top-hotel section css
+***************************************/
+.top-hotel {
+  width: 100%;
+  padding: 130px 0;
+}
+.top-hotel-title h2 {
+  font-size: 46px;
+  color: #0c3e72;
+  line-height: 1.1;
+  font-weight: 600;
+  margin-bottom: 26px;
+}
+.top-hotel-title p {
+  color: #777;
+  font-weight: 400;
+  line-height: 28px;
+  font-size: 16px;
+}
+.top-hotel-list {
+  position: relative;
+  border-bottom: 1px solid #ced8e3;
+}
+.top-hotel-list-details {
+  padding: 33px 0;
+}
+.top-hotel-list-details h3 {
+  font-size: 24px;
+  margin-bottom: 21px;
+  line-height: 1.2em;
+  font-weight: 400;
+}
+.top-hotel-list-details h3 a {
+  color: #0c3e72 !important;
+}
+.star-icon-2 i {
+  color: #ffc962 !important;
+}
+.text-black-210 {
+  color: #212529;
+  font-size: 14px;
+  font-weight: 400;
+}
+.top-hotel-list-details p {
+  padding: 10px 0;
+  color: #a2a2a2;
+  line-height: 28px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.top-hotel-list-details h5 {
+  height: 5px;
+  line-height: 1.2em;
+  font-size: 16px;
+  color: #0c3e72;
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+}
+.top-hotel-list-details h5 span {
+  color: #fe5c24;
+  font-size: 16px;
+  font-weight: 400;
+}
+.share-2 {
+  color: #fff !important;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 30px;
+  bottom: 240px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.share-2 i {
+  font-size: 16px;
+  font-weight: 100;
+}
+
+/* ***********************************
+            member-review section css
+***************************************/
+.member-review {
+  width: 100%;
+  padding: 130px 0;
+  background-color: #0c3e72;
+}
+.member-review-title h2 {
+  color: #fff;
+  font-size: 46px;
+  line-height: 1.1;
+  font-weight: 600;
+  margin-bottom: 26px;
+}
+.star-icon-3 i {
+  color: #ffc962 !important;
+}
+.single-review {
+  background-color: #0e477d;
+  padding: 30px;
+}
+.single-review p {
+  color: #fff;
+  margin: 26px 0 32px;
+  line-height: 28px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.single-review h5 {
+  color: #fff;
+  line-height: 1.2em;
+  font-size: 16px;
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+}
+.owl-dots {
+  display: none;
+}
+.owl-nav {
+  font-size: 40px;
+  font-weight: 100;
+  line-height: 0.9;
+  color: #fff;
+  text-align: left;
+  width: 40px;
+  height: 45px;
+  text-align: center;
+  display: inline-block;
+  color: #fff !important;
+}
+.owl-prev span {
+  background-color: #2493e0 !important;
+  padding: 1px 20px 11px 18px;
+  position: absolute;
+  top: -65px;
+  right: 60px;
+}
+.owl-next span {
+  background-color: #2493e0 !important;
+  padding: 1px 20px 11px 18px;
+  position: absolute;
+  top: -65px;
+  right: 0;
+}
+
+/* ***********************************
+            services section css
+***************************************/
+.services {
+  width: 100%;
+  padding: 130px 0;
+}
+.services-title h2 {
+  font-size: 46px;
+  color: #0c3e72;
+  line-height: 1.1;
+  font-weight: 600;
+  margin-bottom: 26px;
+}
+.services-title p {
+  color: #777;
+  font-weight: 400;
+  line-height: 28px;
+  font-size: 16px;
+}
+.services-list-details {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.services-list-details h3 {
+  line-height: 1.2em;
+  font-weight: 400;
+}
+.services-list-details h3 a {
+  font-size: 24px;
+  color: #0c3e72;
+  margin-bottom: 20px;
+}
+.services-list-details p {
+  color: #a2a2a2;
+  line-height: 28px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* ***********************************
+            footer section css
+***************************************/
+.footer {
+  width: 100%;
+  padding: 130px 0 0 0;
+  background-color: #162b45;
+}
+.discover {
+}
+.discover h4 {
+  margin-bottom: 50px;
+  font-weight: 600;
+  line-height: 1.2em;
+  font-size: 18px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.discover-list {
+  columns: 2 !important;
+  list-style: none;
+}
+.discover h4 ul li {
+  list-style: none !important;
+  margin-bottom: 10px !important;
+}
+.discover-item {
+  color: #fff !important;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5 !important;
+  transition: 0.5s;
+}
+.discover-item:hover {
+  color: #fe5c24 !important;
+  transition: 0.5s;
+}
+.subs-form{
+  margin-bottom: 25px;
+}
+.subscribe h4{
+      margin-bottom: 50px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.subscribe p{
+      color: #fff;
+    line-height: 1.8;
+    font-size: 16px;
+    font-weight: 400;
+}
+.subs-form button{
+  border: none;
+
+}
+.subs-form button i{
+  color: white;
+  background-color: #fe5c24;
+  padding: 16px;
+}
+.subs-form input{
+      height: 50px;
+    border: none;
+    width: 67%!important;
+    font-weight: 400;
+    padding-left: 20px;
+    border-radius: 0;
+    font-size: 13px;
+    color: #999;
+    background-color: #092742;
+    border: 0 solid transparent;
+    overflow: visible;
+}
+.subs-form input:hover{
+outline: none;
+}
+.contact h4{
+      margin-bottom: 50px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1.2em;
+}
+.contact p{
+      margin-bottom: 22px;
+    font-size: 16px;
+        color: #fff;
+    line-height: 1.8;
+    font-weight: 400;
+}
+.contact span{
+  color: #fe5c24;
+  font-size: 14px;
+  font-weight: 400;
+    line-height: 1.5;
+}
+.social-icons{
+  margin-top: 30px;
+}
+.social-icons i{
+  color: #fff;
+  transition: .5s;
+}
+.social-icons i:hover{
+  color: #fe5c24;
+  transition: .5s;
+}
+.copyright{
+  text-align: center;
+      background-color: #08223a;
+    padding: 32px 15px;
+    margin-top: 95px;
+}
+.copyright p{
+  color: #777;
+    line-height: 28px;
+    font-size: 16px;
+    font-weight: 400;
+    display: inline-block;
+}
+.copyright span a{
+  color: #fe5c24 !important;
+  display: inline-block;
+}
